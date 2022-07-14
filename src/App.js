@@ -12,9 +12,9 @@ function App() {
     <Container maxWidth="xl">
       <AppBar position="static">
         <Stack
-          display="flex"
-          flexDirection="horizontal"
+          direction="row"
           justifyContent="space-between"
+          alignItems="flex-start"
         >
           <Box>
             <Typography
@@ -24,7 +24,7 @@ function App() {
               href="/"
               sx={{
                 mr: 2,
-                display: { xs: "none", md: "flex" },
+                //display: { xs: "none", md: "flex" },
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
